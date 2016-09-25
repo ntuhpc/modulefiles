@@ -1,0 +1,19 @@
+#%Module1.0#####################################################################
+##
+## openmpi-2.0.0 modulefile
+##
+## modulefiles/openmpi-2.0.0.  Written by Liu Siyuan
+##
+proc ModulesHelp { } {
+	global version
+
+        puts stderr "openmpi-2.0.0 - sets the environment for OpenMPI $version"
+}
+
+module-whatis	"Sets the environment for OpenMPI 2.0.0 (compiled by GCC)"
+
+# for Tcl script use only
+set   version   "2.0.0"
+
+prepend-path   PATH              /opt/openmpi-gcc/bin
+prepend-path   LD_LIBRARY_PATH   /opt/openmpi-gcc/lib
