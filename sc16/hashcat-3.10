@@ -1,0 +1,18 @@
+#%Module1.0#####################################################################
+##
+## hashcat-3.10 modulefile
+##
+## modulefiles/hashcat-3.10.  Written by Liu Siyuan
+##
+proc ModulesHelp { } {
+	global version
+
+        puts stderr "hashcat-3.10 - sets the environment for Hashcat $version"
+}
+
+module-whatis	"Sets the environment for Hashcat 3.10"
+
+# for Tcl script use only
+set   version   "3.10"
+
+prepend-path   PATH              /opt/sc16-hashcat
