@@ -1,0 +1,23 @@
+#%Module
+setenv I_MPI_ROOT {/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi};
+setenv GDB_CROSS {/opt/intel/debugger_2017/gdb/intel64_mic/bin/gdb-mic};
+setenv INTEL_PYTHONHOME {/opt/intel/debugger_2017/python/intel64/};
+setenv IPPROOT {/opt/intel/compilers_and_libraries_2017.0.098/linux/ipp};
+setenv MIC_LD_LIBRARY_PATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi/mic/lib:/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/mic:/opt/intel/compilers_and_libraries_2017.0.098/linux/ipp/lib/mic:/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/mic:/opt/intel/compilers_and_libraries_2017.0.098/linux/mkl/lib/mic:/opt/intel/compilers_and_libraries_2017.0.098/linux/tbb/lib/mic};
+setenv DAALROOT {/opt/intel/compilers_and_libraries_2017.0.098/linux/daal};
+prepend-path PATH {/opt/intel/debugger_2017/gdb/intel64_mic/bin};
+prepend-path PATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi/intel64/bin};
+prepend-path PATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/bin/intel64};
+setenv INTEL_LICENSE_FILE {/opt/intel/compilers_and_libraries_2017.0.098/linux/licenses:/opt/intel/licenses:/root/intel/licenses};
+setenv CPATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/ipp/include:/opt/intel/compilers_and_libraries_2017.0.098/linux/mkl/include:/opt/intel/compilers_and_libraries_2017.0.098/linux/tbb/include:/opt/intel/compilers_and_libraries_2017.0.098/linux/daal/include};
+setenv LD_LIBRARY_PATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/intel64:/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/intel64_lin:/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi/intel64/lib:/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi/mic/lib:/opt/intel/compilers_and_libraries_2017.0.098/linux/ipp/lib/intel64:/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/intel64:/opt/intel/compilers_and_libraries_2017.0.098/linux/mkl/lib/intel64:/opt/intel/compilers_and_libraries_2017.0.098/linux/tbb/lib/intel64/gcc4.7:/opt/intel/debugger_2017/iga/lib:/opt/intel/debugger_2017/libipt/intel64/lib:/opt/intel/compilers_and_libraries_2017.0.098/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2017.0.098/linux/daal/../tbb/lib/intel64_lin/gcc4.4};
+setenv MANPATH {/opt/intel/man/common:/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi/man:/opt/intel/documentation_2017/en/debugger//gdb-ia/man/:/opt/intel/documentation_2017/en/debugger//gdb-mic/man/:/opt/intel/documentation_2017/en/debugger//gdb-igfx/man/:/usr/local/share/man:/usr/share/man/overrides:/usr/share/man:/opt/ibutils/share/man};
+setenv MPM_LAUNCHER {/opt/intel/debugger_2017/mpm/mic/bin/start_mpm.sh};
+setenv LIBRARY_PATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/ipp/lib/intel64:/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/intel64:/opt/intel/compilers_and_libraries_2017.0.098/linux/mkl/lib/intel64:/opt/intel/compilers_and_libraries_2017.0.098/linux/tbb/lib/intel64/gcc4.7:/opt/intel/compilers_and_libraries_2017.0.098/linux/daal/lib/intel64_lin:/opt/intel/compilers_and_libraries_2017.0.098/linux/daal/../tbb/lib/intel64_lin/gcc4.4};
+setenv TBBROOT {/opt/intel/compilers_and_libraries_2017.0.098/linux/tbb};
+setenv INFOPATH {/opt/intel/documentation_2017/en/debugger//gdb-ia/info/:/opt/intel/documentation_2017/en/debugger//gdb-mic/info/:/opt/intel/documentation_2017/en/debugger//gdb-igfx/info/};
+setenv MIC_LIBRARY_PATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi/mic/lib:/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/mic:/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/mic:/opt/intel/compilers_and_libraries_2017.0.098/linux/mkl/lib/mic:/opt/intel/compilers_and_libraries_2017.0.098/linux/tbb/lib/mic};
+setenv GDBSERVER_MIC {/opt/intel/debugger_2017/gdb/targets/mic/bin/gdbserver};
+setenv MKLROOT {/opt/intel/compilers_and_libraries_2017.0.098/linux/mkl};
+setenv NLSPATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/compiler/lib/intel64/locale/%l_%t/%N:/opt/intel/compilers_and_libraries_2017.0.098/linux/mkl/lib/intel64/locale/%l_%t/%N:/opt/intel/debugger_2017/gdb/intel64_mic/share/locale/%l_%t/%N:/opt/intel/debugger_2017/gdb/intel64/share/locale/%l_%t/%N};
+setenv CLASSPATH {/opt/intel/compilers_and_libraries_2017.0.098/linux/mpi/intel64/lib/mpi.jar:/opt/intel/compilers_and_libraries_2017.0.098/linux/daal/lib/daal.jar};

@@ -15,4 +15,4 @@ module-whatis	"Sets the environment for Hashcat 3.10"
 # for Tcl script use only
 set   version   "3.10"
 
-prepend-path   PATH              /opt/sc16-hashcat
+prepend-path   PATH              /home/public/sc16/sc16-hashcat
