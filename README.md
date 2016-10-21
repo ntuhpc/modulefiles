@@ -21,3 +21,9 @@ To load hashcat, please use
 ```bash
 $ module load sc16/hashcat-3.10
 ```
+
+To load Allinea, please use
+
+```bash
+$ module load allinea-6.1.1
+```
