@@ -16,14 +16,20 @@ To load OpenMPI 2.0.0, please use
 $ module load mpi/openmpi-2.0.0
 ```
 
-To load hashcat, please use
+To load hashcat 3.10, please use
 
 ```bash
 $ module load sc16/hashcat-3.10
 ```
 
-To load Allinea, please use
+To load Allinea Forge 6.1.1, please use
 
 ```bash
 $ module load allinea-6.1.1
+```
+
+To load CUDA 8.0, please use
+
+```bash
+$ module load cuda-8.0
 ```
