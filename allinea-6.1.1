@@ -1,3 +1,18 @@
-#%Module
+#%Module1.0#####################################################################
+##
+## allinea-6.1.1 modulefile
+##
+## modulefiles/allinea-6.1.1.  Written by Liu Siyuan
+##
+proc ModulesHelp { } {
+	global version
+
+        puts stderr "Allinea Forge 6.1.1 - sets the environment for Allinea Forge $version"
+}
+
+module-whatis	"Sets the environment for Allinea Forge 6.1.1"
+
+# for Tcl script use only
+set   version   "6.1.1"
 
 prepend-path PATH /opt/allinea/forge/bin
