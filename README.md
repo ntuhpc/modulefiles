@@ -4,32 +4,32 @@ Modulefiles used by NTU HPC team
 
 ## Usage
 
-To load Intel Parallel Studio XE Cluster Edition 2017, please use
+To check available modules, use
 
 ```bash
-$ module load intel-psxe-2017
+$ module av
 ```
 
-To load OpenMPI 2.0.0, please use
+To load a module, use
 
 ```bash
-$ module load mpi/openmpi-2.0.0
+$ module load <module-name>
 ```
 
-To load hashcat 3.10, please use
+To list all loaded modules, use
 
 ```bash
-$ module load sc16/hashcat-3.10
+$ module list
 ```
 
-To load Allinea Forge 6.1.1, please use
+To unload a module, use
 
 ```bash
-$ module load allinea-6.1.1
+$ module unload <module-name>
 ```
 
-To load CUDA 8.0, please use
+To unload all modules, use
 
 ```bash
-$ module load cuda-8.0
+$ module purge
 ```
