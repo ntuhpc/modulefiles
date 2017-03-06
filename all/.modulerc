@@ -20,6 +20,9 @@ hide-version binutils/2.26
 hide-version binutils/2.27
 hide-version binutils/2.26-GCCcore-5.4.0
 hide-version binutils/2.25-GCCcore-4.9.4
+hide-version ncurses/6.0-GCC-5.4.0-2.26
+hide-version ncurses/6.0
+hide-version ncurses/6.0-GCCcore-5.4.0
 hide-version Automake/1.15
 hide-version hwloc/1.11.5-GCC-6.3.0-2.27
 hide-version hwloc/1.11.3-GCC-5.4.0-2.26
