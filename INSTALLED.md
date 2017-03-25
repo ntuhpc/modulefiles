@@ -8,3 +8,4 @@
 - Python-2.7.12-foss-2016b.eb
 - Python-3.5.2-foss-2016b.eb
 - Boost-1.63.0-foss-2016b-Python-2.7.12.eb
+- Boost-1.63.0-foss-2016b-Python-3.5.2.eb
