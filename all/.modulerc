@@ -1,4 +1,5 @@
 #%Module
+hide-version XZ/5.2.2-foss-2016b
 hide-version zlib/1.2.8-GCCcore-5.4.0
 hide-version zlib/1.2.8-GCC-5.4.0-2.26
 hide-version zlib/1.2.8
@@ -60,6 +61,7 @@ hide-version Autotools/20150215-foss-2016b
 hide-version libtool/2.4.6-foss-2016b
 hide-version libtool/2.4.6-GCC-5.4.0-2.26
 hide-version libtool/2.4.6
+hide-version gettext/0.19.8
 hide-version Tcl/8.6.5-foss-2016b
 hide-version Tcl/8.6.5-GCC-5.4.0-2.26
 hide-version bzip2/1.0.6-foss-2016b
