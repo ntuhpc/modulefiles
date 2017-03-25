@@ -9,3 +9,6 @@
 - Python-3.5.2-foss-2016b.eb
 - Boost-1.63.0-foss-2016b-Python-2.7.12.eb
 - Boost-1.63.0-foss-2016b-Python-3.5.2.eb
+- Eigen-3.2.9-foss-2016b.eb
+- SWIG-3.0.11-foss-2016b-Python-3.5.2.eb
+- HDF5-1.10.0-patch1-foss-2016b.eb

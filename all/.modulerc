@@ -1,4 +1,5 @@
 #%Module
+hide-version PCRE/8.38-foss-2016b
 hide-version XZ/5.2.2-foss-2016b
 hide-version zlib/1.2.8-GCCcore-5.4.0
 hide-version zlib/1.2.8-GCC-5.4.0-2.26
@@ -11,6 +12,7 @@ hide-version flex/2.5.39
 hide-version flex/2.6.0-GCCcore-4.9.4
 hide-version flex/2.6.0
 hide-version flex/2.6.0-GCCcore-5.4.0
+hide-version Szip/2.1-foss-2016b
 hide-version help2man/1.47.4-GCCcore-6.3.0
 hide-version GMP/6.1.1-foss-2016b
 hide-version numactl/2.0.11-GCC-6.3.0-2.27
